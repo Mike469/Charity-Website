@@ -1,0 +1,21 @@
+div.center {
+    text-align: center;
+    padding-top: 100px;
+}
+a.About {
+    text-decoration: none;
+    color: black;
+}
+div.topbar {
+    border: 10px solid;
+    width: 400px; 
+    border-color: black;
+    border-width: 5px;
+    border-left-style: none;
+    border-right-style: none;
+    margin-left: 560px;
+    text-align: center;
+}
+body {
+    background-color: aquamarine;
+}
