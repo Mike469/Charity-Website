@@ -1,21 +1,81 @@
+body {
+    margin: 0;
+}
 div.center {
     text-align: center;
-    padding-top: 100px;
+    margin: auto;
+    font-size: 22px;
 }
 a.About {
     text-decoration: none;
-    color: black;
+    color: #231f20;
 }
 div.topbar {
     border: 10px solid;
     width: 400px; 
-    border-color: black;
-    border-width: 5px;
+    border-color: #231f20;
+    border-width: 3.5px;
     border-left-style: none;
     border-right-style: none;
-    margin-left: 560px;
+    margin: auto;
     text-align: center;
 }
 body {
-    background-color: aquamarine;
+    background-color: #ffee93;
+}
+div.headband {
+    height: 100px;
+    width: 100%;
+    background-color: #181818;
+    position: absolute;
+    margin-top: 265px;
+    z-index: -1;
+}
+div.outer_3 {
+    background-color: #75726d;
+    margin: auto;
+    height: 625px;
+    width: 625px;
+    border-radius: 50%;
+    background-image: radial-gradient(white,white,white,white,#c7c6c4,#75726d,#75726d,#75726d);
+}
+div.outer_outer {
+    background-color: #75726d;
+    margin-left: 48px;
+    margin-top: 48px;
+    height: 525px;
+    width: 525px;
+    border-radius: 50%;
+    border: #555555 solid;
+    position: absolute;
+}
+div.outer_circle {
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 12px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: radial-gradient(white,white,white,white,white,white,rgb(200, 197, 197),black,black,black);
+}
+div.inner_circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #543820;
+    position: absolute;
+    margin-left: 178px;
+    margin-top: 178px;
+    border: #181818 solid;
+    border-width: 4px;
+}
+div.inner_inner {
+    height: 75px;
+    width: 75px;
+    background-color: #181818;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 220px;
 }
