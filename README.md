@@ -1,2 +1,2 @@
 # Charity-Website
-Fictional Charity 
+This is my fake charity website for the minions.
