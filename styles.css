@@ -129,7 +129,7 @@ div.about_description {
     z-index: 3;
 }
 div.first_image {
-    background-image: url("Sick_Minion.png");
+    background-image: url("images/Sick_Minion.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
@@ -138,7 +138,7 @@ div.first_image {
     margin-bottom: 30px;
 }
 div.second_image {
-    background-image: url("other_sick_minion.png");
+    background-image: url("images/other_sick_minion.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
